@@ -11,7 +11,8 @@ theme = st.sidebar.selectbox("select  theme", [
 st.title("theophilus  ugochukwu sylvanus")
 st.subheader("Data Scientist | machine learning engineer | Network  Engineer | web developer | Cyber  security  enthusiast | ")
 st.write("###")
-st.image(Image.open("2.jpg"), width=200)
+profile = Image.open("2.jpg")
+st.image(profile, width=200)
 column1, column2, column3 = st.columns(3, gap="large")
 column1.write("#####")
 column1.header("About me")
@@ -19,16 +20,25 @@ column1.write("#")
 column1.write(" I am a data scientist and a machine learning engineer with strong background in network engineering and web development. I have a passion for leveraging data  to drive insights, solve complex problems,  and create innovative solutions. with a understand of statistics and programming.")
 
 column2.write("#####")
+
 column2.header("Skills")
-column2.write("python")
-column2.write("Rust")
-column2.write("C++")
-column2.write("javascript")
+def skills_progress():
+    skills_progress = {
+        "python": 90,
+        "Rust": 60,
+    }
+    return skills_progress
+
+for skill, progress in skills_progress().items():
+    column2.write(f"{skill}")
+    column2.progress(progress)
 
 column3.write("#####")
 column3.header("Projects")
+column3.write("1. Automated Decision Making")
 
 st.write("####")
+
 st.header("contact")
 st.write("phone: 0901 524 3199")
 st.write("Email: theoboy669@gmail.com")
