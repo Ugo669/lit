@@ -27,7 +27,13 @@ def skills_progress():
     skills_progress = {
         "python": 90,
         "Rust": 60,
-    }
+        "C++": 40,
+        "SQL": 70,
+        "HTML/CSS":80,
+        "Javascript": 30,
+          "Machine learning": 70,
+          "Data analysis":80,
+          }
     return skills_progress
 
 for skill, progress in skills_progress().items():
