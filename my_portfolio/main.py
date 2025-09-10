@@ -5,14 +5,12 @@ import os
 
 
 st.set_page_config(page_title="ugochi stanley", page_icon="toda", layout="wide")
-theme = st.sidebar.selectbox("select  theme", [
-    'light', 'dark', 'system',  'blue'
-])
+
  
 st.title("theophilus  ugochukwu sylvanus")
 st.subheader("Data Scientist | machine learning engineer | Network  Engineer | web developer | Cyber  security  enthusiast | ")
 st.write("###")
-profile = Image.open(os.path.join(r'C:\project\lit\my_portfolio\src\2.jpg'))
+profile = Image.open(os.path.join("src", "images", "2.jpg"))
 st.image(profile, width=200)
 column1, column2, column3 = st.columns(3, gap="large")
 column1.write("#####")
