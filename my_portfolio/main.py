@@ -25,14 +25,14 @@ column2.write("#####")
 column2.header("Skills")
 def skills_progress():
     skills_progress = {
-        "python": 90,
-        "Rust": 60,
-        "C++": 40,
-        "SQL": 70,
-        "HTML/CSS":80,
-        "Javascript": 30,
-          "Machine learning": 70,
-          "Data analysis":80,
+        "python 90%": 90,
+        "Rust 60%": 60,
+        "C++ 40%": 40,
+        "SQL 70%": 70,
+        "HTML/CSS 80%":80,
+        "Javascript 30%": 30,
+          "Machine learning 70%": 70,
+          "Data analysis 80%":80,
           }
     return skills_progress
 
