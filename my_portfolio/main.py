@@ -12,7 +12,7 @@ theme = st.sidebar.selectbox("select  theme", [
 st.title("theophilus  ugochukwu sylvanus")
 st.subheader("Data Scientist | machine learning engineer | Network  Engineer | web developer | Cyber  security  enthusiast | ")
 st.write("###")
-profile = Image.open(os.path.join(r'C:\project\lit\my_portfolio\2.jpg'))
+profile = Image.open(os.path.join(r'C:\project\lit\my_portfolio\src\2.jpg'))
 st.image(profile, width=200)
 column1, column2, column3 = st.columns(3, gap="large")
 column1.write("#####")
