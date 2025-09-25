@@ -10,7 +10,7 @@ st.set_page_config(page_title="ugochi stanley", page_icon="toda", layout="wide")
 st.title("theophilus  ugochukwu sylvanus")
 st.subheader("Data Scientist | machine learning engineer | Network  Engineer | web developer | Cyber  security  enthusiast | ")
 st.write("###")
-profile = Image.open(os.path.join("src", "images", "2.jpg"))
+profile = Image.open(os.path.join("images", "2.jpg"), )
 st.image(profile, width=200)
 column1, column2, column3 = st.columns(3, gap="large")
 column1.write("#####")
@@ -40,7 +40,8 @@ for skill, progress in skills_progress().items():
 
 column3.write("#####")
 column3.header("Projects")
-column3.write("1. Automated Decision Making")
+column3.link_button("1. Automated Decision Making","www.github.com/ugo669/Automated-DM")
+column3.write("this project with simple decision making. Such as which music to  listen to, what movie to watch, what's the matching out to wear. All according to what mood you are in. ")
 
 st.write("####")
 
