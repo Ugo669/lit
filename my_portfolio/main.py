@@ -24,7 +24,15 @@ def projects():
     st.write("###")
     #col1.image()
     col1.header("The scrapper")
-    col1.write
+    col1.write("A command line web scrapping tool")
+    col1.button("view project")
+
+    st.write("###")
+
+    #col1.image
+    col1.header("Aladin")
+    col1.write("a scalable e-commerse website")
+    col1.button("view project")
 
 
 projects()
