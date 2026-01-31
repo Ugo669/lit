@@ -16,22 +16,35 @@ st.write("###")
 col1, col2, col3= st.columns(3, gap ="large")
 def projects(col1):
     col1.header("-Some Awesome Works-")
+    st.write("###")
     #col1.image()
     col1.subheader("Autormated Decission Making machine")
     col1.write(" a responsive machine that could help make decission" \
     "by recomending music, outfits, videos and even what to eat")
-    col1.link_button("view project")
+    lnk1 = ""
+    col1.link_button("view project", lnk1)
     col1.write("###")
     #col1.image()
     col1.subheader("The scrapper")
-    col1.write("A python command line web scrapping tool that aids in advance web scrapping")
-    col1.button("view project")
+    col1.write("An interactive python command line web scrapping tool that aids in advance web scrapping")
+    viw =""
+    col1.button("view project", viw)
     st.write("###")
     #col1.image
     col1.subheader("Aladin")
     col1.write("a scalable e-commerse website built with django framework")
     url = "github.com"
     col1.link_button("view project",url)
+    
+    st.write("###")
+
+    col1.subheader("Fearless bulk")
+    col1.write(" this is a market campaing tool, with the feature:")
+    col1.write("* email marketing" )
+    col1.write("* bulk messaging")
+    col1.write("* reminder and real time messaging")
+
+
 
 
     
