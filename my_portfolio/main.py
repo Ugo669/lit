@@ -33,16 +33,18 @@ def projects(col1):
     #col1.image
     col1.subheader("Aladin")
     col1.write("a scalable e-commerse website built with django framework")
-    url = "github.com"
-    col1.link_button("view project",url)
+    url = "www.github.com/ugo669/alladin"
+    col1.button('view project', url)
     
     st.write("###")
 
-    col1.subheader("Fearless bulk")
-    col1.write(" this is a market campaing tool, with the feature:")
-    col1.write("* email marketing" )
-    col1.write("* bulk messaging")
-    col1.write("* reminder and real time messaging")
+    col1.subheader("mfinance")
+    col1.write(" is a web finance solution that help :")
+    col1.write("* calculate income, expenses and gives you a total of both " )
+    col1.write("* the ability to compare between present and past month expenses")
+    col1.write("* gives tips on how to improve your income and money flow")
+    url2 = "www.github.com/ugo669/mfinance"
+    col1.button("view project", url2)
 
 
 
@@ -60,7 +62,7 @@ def about():
     col3.header("About Me")
     col3.write("I am theophilus ugochukwu sylvanus a developer whom is passion driven" \
     "with over 5 years of eperience in the development space. Building scalable and user friendly software that solves real life problems in business enterprisses, " \
-    "health wise and in the tech field  " \
+    "health institutions and in the tech field  " \
     "" \
     " ")
 about()
