@@ -35,7 +35,7 @@ def projects(col1):
     col1.write(" a responsive machine that could help make decission" \
     "by recomending music, outfits, videos and even what to eat")
     lnk1 = "https://github.com/Ugo669/Automated-DM.git"
-     w = col1.link_button("view project", lnk1)
+    w = col1.link_button("view project", lnk1)
     col1.write("###")
     #col1.image()
     col1.subheader("The scrapper")
