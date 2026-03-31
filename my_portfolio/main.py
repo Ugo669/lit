@@ -70,8 +70,8 @@ st.write("###")
 
 
 col2.header("-who i work with-")
-col2.write(" I am open to work with founders, startups, small and medium enterprises." /n
-"I am also open to work with individuals who are looking to build solutions to their problems  ")
+col2.write("I am open to work with founders, startups, small and medium enterprises."\
+"I am also open to work with individuals who are looking to build solutions to their problems")
 
 def about():
     col3.header("About Me")
